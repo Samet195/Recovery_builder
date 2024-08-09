@@ -7,10 +7,10 @@ export BRANCH="twrp-12.1" # the branch of manifest
 
 # about your device
 export DEVICE="G512" # codename used in device tree
-export DT_LINK="https://github.com/ruigegoat/twrp_device_general_G512.git" # device tree link
+export DT_LINK="https://github.com/loongruige/twrp_device_general_G512.git" # device tree link
 export DT_BRANCH="main" # device tree branch
 export VENDOR="general" # device manufacturer or vendor
-export TARGET="bootimage" # build method: recoveryimage, bootimage, vendorboot
+export TARGET="recoveryimage" # build method: recoveryimage, bootimage, vendorboot
 export TYPE="omni" # recovery type: omni, twrp, something else
 export ALLOW_MISSING_DEPENDENCIES=true
 
